@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+:root {
+    --text-heading: #1E2A38;
+    --primary-background: #F8F9FA;
+    --card-background: #FFFFFF;
+    --text-primary: #212529;
+    --text-secondary: #6C757D;
+    --border: #DEE2E6;
+    --section-background: #1C1C1C;
+}
+
+.text-heading {
+    color: var(--text-heading);
+}
+
+.primary-background {
+    background-color: var(--primary-background);
+}
+
+.card-background {
+    background-color: var(--card-background);
+}
+
+.text-primary {
+    color: var(--text-primary) !important;
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.border {
+    border: 1px solid var(--border);
+}
+
+.section {
+    background-color: var(--section-background);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", serif;
+    background-color: var(--primary-background);
+    /* font-optical-sizing: auto; */
+    /* font-style: normal; */
+}
+a {
+    text-decoration: none !important;
+}
+.container {
+    max-width: 700px !important;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+}
